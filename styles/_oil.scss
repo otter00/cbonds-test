@@ -1,0 +1,14 @@
+@import "vars.scss";
+
+// MONTSERRAT
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+// ROBOTO
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap");
+
+.oil__container {
+  //width: 100%;
+  //max-width: 1256px;
+  min-height: 2268px;
+  background-color: rgba(50, 50, 50, 1);
+  padding: 68px 372px 134px 372px;
+}

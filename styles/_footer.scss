@@ -1,0 +1,62 @@
+@import "vars.scss";
+
+// MONTSERRAT
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+// ROBOTO
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap");
+
+.contacts__container {
+  //width: 100%;
+  //max-width: 1256px;
+  min-height: 455px;
+  background-color: rgba(50, 50, 50, 1);
+  padding: 29px 372px 44px 372px;
+  font-family: "Roboto", sans-serif;
+  color: $footer_color;
+
+  .contacts__title {
+    min-height: 90px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 22px;
+    font-weight: 700;
+    font-size: 58px;
+    text-align: center;
+  }
+
+  .contacts__numbers {
+    min-height: 136px;
+    padding-top: 22px;
+
+    .contacts__countries {
+      display: flex;
+      justify-content: space-around;
+
+      .contact__country-info {
+        display: flex;
+        flex-direction: column;
+        font-size: 22px;
+
+        #contact__title {
+          display: flex;
+          justify-content: center;
+          font-weight: 700;
+        }
+
+        #contact__subtitle {
+          font-weight: 400;
+        }
+      }
+    }
+  }
+
+  .contacts__policy {
+    display: flex;
+    justify-content: center;
+    min-height: 156px;
+
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25.78px;
+  }
+}

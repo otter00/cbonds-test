@@ -1,0 +1,76 @@
+@import "vars.scss";
+
+// MONTSERRAT
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+// ROBOTO
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap");
+
+.intro__container {
+  width: 100%;
+  max-width: 1256px;
+  min-height: 524px;
+  padding: 64px 372px 0 372px;
+
+  .intro__title {
+    min-height: 94px;
+    margin: 0;
+    padding: 0 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 75px;
+  }
+
+  .intro__about-block {
+    min-height: 118px;
+    padding-bottom: 46px;
+
+    .intro__about-text {
+      display: block;
+      min-height: 72px;
+      padding: 0 20px;
+      max-width: 800px;
+      font-family: "Roboto", sans-serif;
+      font-weight: 400;
+      font-size: 18px;
+    }
+  }
+
+  .intro__subtitle {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    min-height: 70px;
+    padding: 0 20px 46px 20px;
+
+    span {
+      font-size: 52px;
+    }
+  }
+
+  .intro__options-container {
+    min-height: 178px;
+    padding: 0 20px 82px 20px;
+    //grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+
+    button {
+      min-height: 38px;
+      border-radius: 27px;
+      font-family: "Roboto", sans-serif;
+      padding: 8px 12px;
+      background-color: white;
+      color: black;
+      border: 1px solid rgba(232, 232, 232, 1);
+    }
+
+    #b1 {
+      background-color: rgba(239, 95, 49, 1);
+      color: white;
+      border: 1px solid rgba(239, 95, 49, 1);
+    }
+
+    #b10 {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 700;
+    }
+  }
+}
