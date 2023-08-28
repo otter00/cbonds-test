@@ -14,8 +14,6 @@
 }
 
 .intro__container {
-  width: 100%;
-  max-width: 1256px;
   min-height: 524px;
   padding: 64px 372px 0 372px;
 }
@@ -79,14 +77,11 @@
 }
 
 .product__container {
-  width: 100%;
-  max-width: 1256px;
   min-height: 542.35px;
   padding: 64px 372px 0 372px;
   background-color: rgb(249, 249, 249);
 }
 .product__container .product__title {
-  max-width: 1256px;
   min-height: 90px;
   padding: 0 20px 46px 20px;
   font-family: "Montserrat", sans-serif;
