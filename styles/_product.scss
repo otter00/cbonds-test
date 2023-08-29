@@ -10,14 +10,10 @@
 }
 
 .product__container {
-  //width: 100%;
-  //max-width: 1256px;
-  //min-height: 542.35px;
   padding: 64px 372px 0 372px;
   background-color: rgba(249, 249, 249, 1);
 
   .product__title {
-    //max-width: 1256px;
     min-height: 90px;
     padding: 0 20px 46px 20px;
     font-size: 36px;
@@ -25,7 +21,6 @@
   }
 
   .product__quarterly {
-    //min-height: 111px;
     padding: 0 20px 43px 20px;
 
     .quarterly__sum {
@@ -34,7 +29,6 @@
     }
 
     .quarterly__perscent {
-      //min-height: 68px;
       display: inline-flex;
       align-items: center;
       gap: 8px;
@@ -47,7 +41,6 @@
       text-align: center;
 
       span {
-        //min-height: 44px;
         font-weight: 700;
         font-size: 36px;
       }
@@ -55,7 +48,6 @@
   }
 
   .product__stat {
-    //min-height: 277px;
     padding: 0 20px 116px 20px;
 
     .stat__img {

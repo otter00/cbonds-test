@@ -9,7 +9,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap");
 * {
-  border: 1px solid black;
   margin: 0;
 }
 
@@ -46,14 +45,25 @@
 .intro__container .intro__options-container {
   padding: 0 20px 82px 20px;
 }
+.intro__container .intro__options-container .btns-block-1,
+.intro__container .intro__options-container .btns-block-2 {
+  display: flex;
+  gap: 8px;
+}
 .intro__container .intro__options-container button {
-  margin: 8px;
+  margin: 8px 0;
+  gap: 4px;
+  display: inline-flex;
+  text-align: center;
   border-radius: 27px;
   font-family: "Roboto", sans-serif;
   padding: 8px 12px;
   background-color: white;
   color: black;
   border: 1px solid rgb(232, 232, 232);
+}
+.intro__container .intro__options-container button #btn-icon {
+  display: flex;
 }
 .intro__container .intro__options-container #b1 {
   background-color: rgb(239, 95, 49);
@@ -66,7 +76,6 @@
 }
 
 * {
-  border: 1px solid black;
   margin: 0;
 }
 
@@ -121,7 +130,6 @@
 }
 
 * {
-  border: 1px solid black;
   margin: 0;
 }
 
@@ -163,7 +171,6 @@
 }
 
 * {
-  border: 1px solid black;
   margin: 0;
 }
 
@@ -245,7 +252,6 @@
 }
 
 * {
-  border: 1px solid black;
   margin: 0;
 }
 
@@ -294,6 +300,5 @@
 }
 
 * {
-  border: 1px solid black;
   margin: 0;
 }/*# sourceMappingURL=app.css.map */
