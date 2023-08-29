@@ -5,10 +5,96 @@
 // ROBOTO
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap");
 
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
 .oil__container {
   //width: 100%;
   //max-width: 1256px;
-  min-height: 2268px;
+  //min-height: 2268px;
   background-color: rgba(50, 50, 50, 1);
   padding: 68px 372px 134px 372px;
+
+  .oil__title {
+    padding: 0 20px 20px 20px;
+    color: $footer_color;
+    font-size: 36px;
+    font-weight: 700;
+  }
+
+  .oil__stat {
+    padding: 16px 183px 28px 183px;
+
+    .oil__stat-percent {
+      padding: 36px 0;
+      gap: 90px;
+
+      display: flex;
+      justify-content: space-around;
+
+      div {
+        width: 400px;
+        max-width: 400px;
+        border-radius: 20px;
+        padding: 28px 36px;
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(238, 95, 47, 1);
+        color: white;
+        gap: 32px;
+
+        #oil-stat__percent {
+          font-size: 52px;
+          font-weight: 700;
+        }
+
+        #oil-stat__subtitle {
+          font-family: "Roboto", sans-serif;
+          font-weight: 400;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+
+  .oil__graph-img {
+    width: 100%;
+    max-width: 100vw;
+  }
+
+  .oil__stat-year {
+    padding: 82px 183px 28px 183px;
+
+    .oil__stat-percent {
+      padding: 36px 0;
+      gap: 90px;
+
+      display: flex;
+      justify-content: space-around;
+
+      div {
+        width: 400px;
+        max-width: 400px;
+        border-radius: 20px;
+        padding: 28px 36px;
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(16, 16, 16, 1);
+        color: white;
+        gap: 32px;
+
+        #oil-stat__percent {
+          font-size: 52px;
+          font-weight: 700;
+        }
+
+        #oil-stat__subtitle {
+          font-family: "Roboto", sans-serif;
+          font-weight: 400;
+          font-size: 16px;
+        }
+      }
+    }
+  }
 }

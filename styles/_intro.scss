@@ -8,11 +8,11 @@
 .intro__container {
   //width: 100%;
   //max-width: 1256px;
-  min-height: 524px;
+  //min-height: 524px;
   padding: 64px 372px 0 372px;
 
   .intro__title {
-    min-height: 94px;
+    //min-height: 94px;
     margin: 0;
     padding: 0 20px;
     font-family: "Montserrat", sans-serif;
@@ -21,12 +21,12 @@
   }
 
   .intro__about-block {
-    min-height: 118px;
+    //min-height: 118px;
     padding-bottom: 46px;
 
     .intro__about-text {
       display: block;
-      min-height: 72px;
+      //min-height: 72px;
       padding: 0 20px;
       max-width: 800px;
       font-family: "Roboto", sans-serif;
@@ -39,7 +39,7 @@
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     font-size: 36px;
-    min-height: 70px;
+    //min-height: 70px;
     padding: 0 20px 46px 20px;
 
     span {
@@ -48,12 +48,13 @@
   }
 
   .intro__options-container {
-    min-height: 178px;
+    //min-height: 178px;
     padding: 0 20px 82px 20px;
     //grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 
     button {
-      min-height: 38px;
+      //min-height: 38px;
+      margin: 8px;
       border-radius: 27px;
       font-family: "Roboto", sans-serif;
       padding: 8px 12px;
